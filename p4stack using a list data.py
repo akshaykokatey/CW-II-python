@@ -1,0 +1,11 @@
+#Stack using list
+stack=list((25,20,10,5))
+stack.pop()
+stack.pop()
+stack.append(15)
+stack.append(20)
+stack.append(25)
+print(stack)
+stack.clear()
+stack.append(50)
+print(stack)
